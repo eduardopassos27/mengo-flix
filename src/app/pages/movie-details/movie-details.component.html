@@ -1,0 +1,14 @@
+<div class="contain mt-5">
+    <div class="row p-5" style="padding-top: 2px !important; ">
+        
+        <div class="col-lg-10 mt-5 p-4" style="margin-top: 0px !important;">
+                <img 
+                [src]="getMovieDetailResult.bannerBase64" 
+                >
+                <h1 class="mt-2 mb-2">{{getMovieDetailResult.title}}</h1>
+                <p class="mt-3 mb-3">{{getMovieDetailResult.description}}</p>
+                <a class="btn btn-md" [routerLink]="['/watch',getMovieDetailResult.id]" 
+                >Assistir</a>
+        </div>
+    </div>
+</div>

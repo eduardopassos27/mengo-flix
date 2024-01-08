@@ -1,0 +1,18 @@
+.logo{
+    height: 30px;
+    margin-left: 20px;
+}
+.navbar .navbar-brand
+{
+    color: white;
+    /* font-weight: bold; */
+}
+
+.navbar-nav .nav-item .nav-link
+{
+    color: white;
+    font-size: 15px;
+}
+.navbar_container{
+    background-color: black;
+}
